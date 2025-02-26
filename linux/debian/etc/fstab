@@ -1,11 +1,11 @@
 # /etc/fstab: static file system information
-UUID=  /boot/efi vfat  defaults                                          0 1 # EFI
-UUID=  /         ext4  defaults,noatime,discard,nobarrier,commit=60      0 1 # Root 
-UUID=  /home     ext4  defaults,noatime,discard,x-systemd.automount      0 1 # Home 
-UUID=  /archive  f2fs  defaults,noatime,discard,compress_algorithm=zstd  0 0 # Archive
-UUID=  none      swap  sw,discard,pri=10,nofail                          0 0 # Swap  
-UUID=  none      swap  sw,discard,pri=10,nofail                          0 0 # Swap 
-tmpfs  /tmp      tmpfs defaults,noatime,mode=1777                        0 0 # Temp 
+UUID=                     /boot/efi vfat  defaults                                          0 1 # EFI
+UUID=                     /         ext4  defaults,noatime,discard,nobarrier,commit=60      0 1 # Root 
+UUID=                     /home     ext4  defaults,noatime,discard,x-systemd.automount      0 1 # Home 
+UUID=                     /archive  f2fs  defaults,noatime,discard,compress_algorithm=zstd  0 0 # Archive
+UUID=                     none      swap  sw,discard,pri=10,nofail                          0 0 # Swap  
+UUID=                     none      swap  sw,discard,pri=10,nofail                          0 0 # Swap 
+tmpfs                     /tmp      tmpfs defaults,noatime,mode=1777                        0 0 # Temp 
 
 # Update grub to enable TRIP on SSD
 # sed -i 's/[# ]*GRUB_CMDLINE_LINUX_DEFAULT=.*/GRUB_CMDLINE_LINUX_DEFAULT="quiet splash scsi_mod.use_blk_mq=1"/g' /etc/default/grub && update-grub

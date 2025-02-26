@@ -1,24 +1,26 @@
 {
-  "editor.fontFamily": "'Cascadia Code PL'",
+  "editor.fontFamily": "'Cascadia Code NF'",
   "editor.fontLigatures": true,
   "editor.fontWeight": "200",
   "editor.fontSize": 12,
-  "editor.bracketPairColorization.enabled": true,
-  "terminal.integrated.fontFamily": "'Cascadia Code PL'",
+  "editor.renderWhitespace": "all",
+  "editor.renderControlCharacters": true,
+  "terminal.integrated.fontFamily": "'Cascadia Code NF'",
   "terminal.integrated.fontSize": 11,
+  "editor.guides.indentation": true,
+  "editor.lineHeight": 1.5,
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "security.workspace.trust.untrustedFiles": "open",
   "vscode-edge-devtools.webhint": false,
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "developer-icon-theme",
   "git.enableSmartCommit": true,
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": true,
   "workbench.editor.showTabs": "multiple",
   "workbench.editor.highlightModifiedTabs": true,
-  "workbench.editor.tabCloseButton": "right",
   "workbench.editor.tabSizing": "shrink",
   "workbench.editor.scrollToSwitchTabs": true,
   "workbench.editor.openPositioning": "right",
@@ -29,7 +31,11 @@
   "workbench.editor.enablePreviewFromQuickOpen": true,
   "workbench.editor.labelFormat": "short",
   "workbench.editor.focusRecentEditorAfterClose": true,
+  "workbench.editor.tabActionLocation": "right",
   "workbench.editor.showIcons": true,
+  "workbench.colorTheme": "Night Owl Oled Dim 95",
+  "workbench.productIconTheme": "fluent-icons",
+  "files.eol": "\n",
   "[python]": {
     "editor.formatOnType": true
   },
@@ -46,25 +52,20 @@
   "powershell.startAutomatically": false,
   "terminal.integrated.fontWeight": "200",
   "terminal.integrated.fontWeightBold": "500",
-  "workbench.colorTheme": "Night Owl Oled Dim 95",
-  "workbench.productIconTheme": "fluent-icons",
+  "files.associations": {
+    "*.ps1": "powershell",
+    "*.sources": "debian"
+  },
+  "better-comments.multilineComments": true,
+  "better-comments.highlightPlainText": true,
   "better-comments.tags": [
     {
-      "tag": "@",
+      "tag": "#",
       "color": "#FF2D00",
       "strikethrough": false,
       "underline": false,
       "backgroundColor": "transparent",
       "bold": true,
-      "italic": true
-    },
-    {
-      "tag": "!",
-      "color": "#3498DB",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
       "italic": false
     },
     {
@@ -73,41 +74,27 @@
       "strikethrough": true,
       "underline": false,
       "backgroundColor": "transparent",
-      "bold": false,
+      "bold": true,
       "italic": false
     },
     {
-      "tag": "*",
-      "color": "#FF8C00",
+      "tag": "!",
+      "color": "#3498DB",
       "strikethrough": false,
       "underline": false,
       "backgroundColor": "transparent",
       "bold": true,
       "italic": false
-    },
-    {
-      "tag": "?",
-      "color": "#98C379",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "/",
-      "color": "#474747",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": true
     }
   ],
-  "better-comments.highlightPlainText": true,
-  "files.associations": {
-    "*.ps1": "powershell"
+  "remote.SSH.remotePlatform": {
+    "dusk": "linux"
   },
-  "workbench.editor.tabActionLocation": "right",
-  "files.eol": "\n"
+  "remote.SSH.showLoginTerminal": true,
+  "files.autoSave": "afterDelay",
+  "terminal.integrated.env.windows": {
+    "SSH_AUTH_SOCK": "\\\\.\\pipe\\openssh-ssh-agent"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "redhat.telemetry.enabled": false
 }
