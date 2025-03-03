@@ -9,7 +9,7 @@
     "disabledProfileSources": [ "Windows.Terminal.Azure" ],
     "firstWindowPreference": "persistedWindowLayout",
     "focusFollowMouse": false,
-    "initialCols": 135,
+    "initialCols": 160,
     "initialPosition": "300,100",
     "initialRows": 30,
     "keybindings": 
