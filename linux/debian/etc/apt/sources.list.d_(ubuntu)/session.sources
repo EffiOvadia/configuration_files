@@ -5,6 +5,7 @@ URIs: https://deb.oxen.io
 Suites: noble
 Components: main
 Architectures: amd64
+# https://deb.oxen.io/pub.gpg
 Signed-By: 
  -----BEGIN PGP PUBLIC KEY BLOCK-----
  .

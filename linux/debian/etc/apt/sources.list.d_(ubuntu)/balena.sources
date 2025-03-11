@@ -1,0 +1,32 @@
+Name: Etcher/Balena Repository
+Enabled: yes
+Types: deb
+URIs: https://dl.cloudsmith.io/public/balena/etcher/deb/debian
+Suites: any-version
+Components: main
+Architectures: amd64
+# https://dl.cloudsmith.io/public/balena/etcher/gpg.key
+Signed-By: 
+ -----BEGIN PGP PUBLIC KEY BLOCK-----
+ .
+ mQGNBGBu82IBDADBAEq2bZgewTO5ECLLrJq02iTAvFKmcJZ11sbPI7w18tRNrIny
+ qFOVHYbUa0g6nCZmzbeHOs9QHjd4qRHSLK2X190UdhLVXMmG3ye2Uld1VsJyoLtS
+ f/Tokd1VXt2BMQtyVngLf+YSwskQO58HaSJjog/VyY5ReUR8LFMW0hYMiF6TGYLk
+ lJ9u0sB9gFQC2OxIq1Z9tYnXSsRISNu94RSLv8RQtLmM0lzhVJjDp0s9vFcnenTe
+ 88Gpkfez+UYTbH+EbOr0GFvlGX4gCsIYr1QC6+5z10VUhTvkRwjCvTkPmG5jlXb3
+ Y1sVu+C1LhO7xdH2vVN/LuHWQG25KJ9buG4q4al789OmlASoAqOiwzQDjso/7TuO
+ WK54wmslgA9Lqf5JOLUXcOYvBrI9ESmr70jO8OVS/gAW/o8KrKwGWGDwetTfmxpt
+ owmRN1zc83Ig2NJSkk2ij5JutgSogcSMCHtVDEEHaHF7Pf0viUhYxWYxFFz4tS3D
+ ZZebaWs0GxOs3vEAEQEAAbQ8Q2xvdWRzbWl0aCBQYWNrYWdlICh0ZXN0LUl3My9l
+ dGNoZXIpIDxzdXBwb3J0QGNsb3Vkc21pdGguaW8+iQG3BBMBCAAhBQJgbvNiAhsv
+ BQsJCAcDBRUKCQgLBRYCAwEAAh4BAheAAAoJEHBShHGv+aBRVV0L/RtC0tV42D5u
+ ys5a7Hw4xa+JvB2m3pCfTrwGZxHlUlH3YEF5KDKXPvNYwpKVrDujnDWsHzAbiQf1
+ Gaf4oxDv2xbaFf7zCCVWPWGdANtbIt1YCf/NcutNO+8TaP2BMR0pMF2DJP3mZGLX
+ Mh8Bjwap0BxPdJCjOfdIfU5HAJMBXQhmVHkkYBqV3p7q2JvO7w1+y4GlNBLkWIj1
+ I1cmTCjtMXMdcc99aJCq7jusP2NNWoZ42p7ekkQZGY6cu3uxCwNc/Q6YuV1Mxkkm
+ iVBvRCHzszJawYUgfFSK5bIot7kTSbcKW6k6ZOm3tkYvpBF+uMJXs28dsbsMBiOE
+ Vum2ASegc2L1plZaXZESmhj5IYa07ABaLZygq8PfCVCYE9ZWR89QSn/RZCJLbtXG
+ 4Bw8ziYUiwx+5mQG6n3LqyQ9FF+kbobJGzJ060oQ5sO33AAHo4+w/yP+FUl3P30M
+ jtBTd56RQlVE3AkDgxS6j34exCMEKlwv6b/WtBrgDFCtrz8eiAnF4Q==
+ =W0Yf
+ -----END PGP PUBLIC KEY BLOCK-----
