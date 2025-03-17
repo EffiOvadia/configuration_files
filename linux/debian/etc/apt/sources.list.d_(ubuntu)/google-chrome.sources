@@ -5,7 +5,7 @@ URIs: https://dl.google.com/linux/chrome/deb/
 Suites: stable
 Components: main
 Architectures: amd64
-# https://dl.google.com/linux/linux_signing_key.pub
+# https://dl-ssl.google.com/linux/linux_signing_key.pub
 Signed-By: 
  -----BEGIN PGP PUBLIC KEY BLOCK-----
  .
