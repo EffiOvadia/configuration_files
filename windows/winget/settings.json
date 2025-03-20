@@ -5,11 +5,7 @@
   "source": { "autoUpdateIntervalInMinutes": 5 },
   "installBehavior": { 
     "disableInstallNotes": true,
-    "preferences": { 
-      "scope": "user", 
-      "locale": [ "en-US", "he-IL" ], 
-      "architectures": [ "x64" ] 
-    }
+    "preferences": { "scope": "user", "locale": [ "en-US", "he-IL" ], "architectures": [ "x64" ] }
   },
   "telemetry": { "disable": true }
 }
