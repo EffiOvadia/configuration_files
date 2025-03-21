@@ -120,7 +120,7 @@
             {
                 // Debian GNU/Linux
                 "name": "Debian GNU/Linux",
-                "source": "Windows.Terminal.Wsl",
+                "source": "Microsoft.WSL",
                 "commandline": "wsl -d debian -u root",
                 "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
                 "backgroundImage": "ms-appdata:///Local/debian.png",
@@ -135,7 +135,7 @@
             {
                 // Oracle Linux 9.5
                 "name": "Oracle Linux 9.5",
-                "source": "Windows.Terminal.Wsl",
+                "source": "Microsoft.WSL",
                 "commandline": "wsl -d OracleLinux_9_5 -u root",
                 "guid": "{3dcd5bf3-8db2-5fd0-9927-1bfb9c194862}",
                 "backgroundImage": "ms-appdata:///Local/oracle.png",        
@@ -150,7 +150,7 @@
             {
                 // Kalli Linux Rolling
                 "name": "Kali Linux Rolling",
-                "source": "Windows.Terminal.Wsl",
+                "source": "Microsoft.WSL",
                 "commandline": "wsl -d kali-linux -u root",
                 "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
                 "backgroundImage": "ms-appdata:///Local/kali.png",       
