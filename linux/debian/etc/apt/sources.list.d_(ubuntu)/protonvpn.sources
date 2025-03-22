@@ -5,6 +5,7 @@ URIs: https://repo.protonvpn.com/debian
 Suites: stable
 Components: main
 Architectures: amd64
+# https://repo.protonvpn.com/debian/public_key.asc
 Signed-By: 
  -----BEGIN PGP PUBLIC KEY BLOCK-----
  .

@@ -1,8 +1,9 @@
 Name: Gimp
 Enabled: yes
 Types: deb
-URIs: https://ppa.launchpadcontent.net/ubuntuhandbook1/gimp/ubuntu/
-Suites: noble
+URIs: https://ppa.launchpadcontent.net/ubuntuhandbook1/gimp-3/ubuntu/
+#Suites: noble
+Suites: oracular
 Components: main
 Architectures: amd64
 Signed-By:
