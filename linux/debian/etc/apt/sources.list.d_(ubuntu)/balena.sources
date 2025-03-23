@@ -1,4 +1,4 @@
-Name: Etcher/Balena Repository
+Name: Balena Etcher
 Enabled: yes
 Types: deb
 URIs: https://dl.cloudsmith.io/public/balena/etcher/deb/debian
