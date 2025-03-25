@@ -2,7 +2,7 @@ Name: Balena Etcher
 Enabled: yes
 Types: deb
 URIs: https://dl.cloudsmith.io/public/balena/etcher/deb/debian
-Suites: any-version
+Suites: bookworm
 Components: main
 Architectures: amd64
 # https://dl.cloudsmith.io/public/balena/etcher/gpg.key
