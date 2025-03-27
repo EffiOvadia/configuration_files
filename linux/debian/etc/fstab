@@ -5,6 +5,7 @@ UUID=  /home     ext4  defaults,noatime,discard,x-systemd.automount      0 1 # h
 UUID=  /archive  f2fs  defaults,noatime,discard,compress_algorithm=zstd  0 0 # archive
 UUID=  none      swap  sw,discard,pri=10,nofail                          0 0 # swap  
 tmpfs  /tmp      tmpfs defaults,noatime,mode=1777                        0 0 # temp 
+tv:/   /nfs/tv   nfs   nfsvers=4,_netdev,x-systemd.automount,nofail      0 0 # nfs
 
 # Update grub to enable TRIP on SSD
 # sed -i 's/[# ]*GRUB_CMDLINE_LINUX_DEFAULT=.*/GRUB_CMDLINE_LINUX_DEFAULT="quiet splash scsi_mod.use_blk_mq=1"/g' /etc/default/grub && update-grub
