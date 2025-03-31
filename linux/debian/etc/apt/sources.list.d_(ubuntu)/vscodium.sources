@@ -1,7 +1,7 @@
 Name: VSCodium
 Enabled: yes
 Types: deb
-URIs: https://download.vscodium.com/debs
+URIs: https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/debs
 Suites: vscodium
 Components: main
 Architectures: amd64
