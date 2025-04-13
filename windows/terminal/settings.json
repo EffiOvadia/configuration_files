@@ -5,13 +5,15 @@
     "alwaysShowNotificationIcon": false,
     "copyFormatting": "none",
     "copyOnSelect": true,
+    "centerOnLaunch": true,
+    "initialPosition": "300,100",
+    "defaultInputScope": "alphanumericHalfWidth",
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "disabledProfileSources": [ "Windows.Terminal.Azure" ],
     "firstWindowPreference": "persistedWindowLayout",
     "focusFollowMouse": false,
     "initialCols": 190,
-    "initialPosition": "300,100",
-    "initialRows": 30,
+    "initialRows": 35,
     "keybindings": 
     [ 
         { "id": "Terminal.DuplicatePaneAuto",  "keys": "alt+shift+d"  },
@@ -33,9 +35,17 @@
             "closeOnExit": "always",
             "colorScheme": "Warm",
             "cursorShape": "filledBox",
-            "font": { "face": "Cascadia Code NF", "size": 17, "weight": "extra-light" },
+            "font": 
+            {
+              "face": "Cascadia Code NF", "size": 17, "weight": "extra-light",
+              "features": { "ss01": 1, "ss02": 1, "ss03": 1, "ss04": 1, "ss05": 1, "ss06": 1, "zero": 1, "onum": 1 },
+              "axes": { "ital": 0, "wght": 200, "slnt": -10 }
+            },
+            "intenseTextStyle": "all",
             "historySize": 9001,
             "padding": "5, 5, 5, 5",
+            "pathTranslationStyle": "wsl",
+            "showMarksOnScrollbar": true,
             "snapOnInput": true,
             "startingDirectory": "~"
         },
@@ -136,7 +146,7 @@
                 // Oracle Linux 9.5
                 "name": "Oracle Linux 9.5",
                 "source": "Windows.Terminal.Wsl",
-                "commandline": "wsl -d OracleLinux_9_5 -u root",
+                "commandline": "wsl -d OracleLinux_9_4 -u root",
                 "guid": "{3dcd5bf3-8db2-5fd0-9927-1bfb9c194862}",
                 "backgroundImage": "ms-appdata:///Local/oracle.png",        
                 "icon": "https://www.oracle.com/favicon.ico",
