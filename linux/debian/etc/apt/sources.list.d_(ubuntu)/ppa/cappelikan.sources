@@ -3,7 +3,7 @@ Enabled: yes
 Types: deb
 URIs: https://ppa.launchpadcontent.net/cappelikan/ppa/ubuntu/
 #Suites: noble
-Suites: oracular
+Suites: plucky
 Components: main
 Architectures: amd64
 Signed-By: 

@@ -1,5 +1,5 @@
 Name: LibreOffice
-Enabled: yes
+Enabled: no
 Types: deb
 URIs: http://ppa.launchpad.net/libreoffice/ppa/ubuntu
 #Suites: noble

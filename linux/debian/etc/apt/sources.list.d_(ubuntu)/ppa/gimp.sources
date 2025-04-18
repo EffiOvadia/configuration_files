@@ -1,5 +1,5 @@
 Name: Gimp
-Enabled: yes
+Enabled: no
 Types: deb
 URIs: https://ppa.launchpadcontent.net/ubuntuhandbook1/gimp-3/ubuntu/
 #Suites: noble

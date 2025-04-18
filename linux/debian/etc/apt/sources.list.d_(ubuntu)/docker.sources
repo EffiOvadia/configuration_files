@@ -3,7 +3,7 @@ Enabled: yes
 Types: deb
 URIs: https://download.docker.com/linux/ubuntu
 #Suites: noble
-Suites: oracular
+Suites: plucky
 Components: stable
 # https://download.docker.com/linux/ubuntu/gpg
 Architectures: amd64

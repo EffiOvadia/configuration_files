@@ -1,5 +1,5 @@
 Name: Inkscape
-Enabled: yes
+Enabled: no
 Types: deb
 URIs: https://ppa.launchpadcontent.net/inkscape.dev/stable/ubuntu/
 #Suites: noble

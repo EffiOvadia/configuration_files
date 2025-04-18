@@ -1,5 +1,5 @@
 Name: KeePassXC
-Enabled: yes
+Enabled: no
 Types: deb
 URIs: https://ppa.launchpadcontent.net/phoerious/keepassxc/ubuntu/
 #Suites: noble

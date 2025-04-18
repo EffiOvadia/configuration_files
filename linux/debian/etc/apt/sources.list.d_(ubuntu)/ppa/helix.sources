@@ -1,8 +1,8 @@
 Name: Helix editor
-Enabled: yes
+Enabled: no
 Types: deb
 URIs: https://ppa.launchpadcontent.net/maveonair/helix-editor/ubuntu/
-Suites: noble
+Suites: oracular
 Components: main
 Architectures: amd64
 Signed-By: 
