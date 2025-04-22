@@ -102,8 +102,9 @@
             {
                 // Ubuntu 25.04
                 "name": "Ubuntu 25.04",                
-                "commandline": "wsl -d Ubuntu-25.04 -u effio",
+                "commandline": "wsl -d Ubuntu-25.04 -u root",
                 "guid": "{ef80a80a-ff63-5933-8bb8-4b0aa8b1014f}",
+                "backgroundImage": "ms-appdata:///Local/ubuntu.png",
                 "icon": "https://help.ubuntu.com/favicon.ico",
                 "cursorColor": "#00CCFF",
                 "source": "Microsoft.WSL",
