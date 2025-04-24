@@ -1,0 +1,4 @@
+[RustDesk]
+title=RustDesk Server
+description=Remote Control Software
+ports=2116/udp|2115:2119/tcp

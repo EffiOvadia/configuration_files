@@ -1,4 +1,4 @@
 [OpenVPN]
-title=OpenVPN server
-description=OpenVPN
+title=OpenVPN Server
+description=VPN Server
 ports=1194/udp

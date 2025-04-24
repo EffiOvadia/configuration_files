@@ -1,4 +1,4 @@
 [NFS]
-title=The Network File System (NFS) 
-description=share directories and files with others over a network
+title=NFS Server
+description=Network File System, share directories and files with others over a network
 ports=2049/udp|2049/tcp

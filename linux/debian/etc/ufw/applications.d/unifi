@@ -1,4 +1,4 @@
 [UniFi]
-title=Ubiquiti Networks - UniFi Controller Server
-description=UniFi Controller for AccessPoints, Switches and Other UniFi products
+title=UniFi Controller
+description=Controller for AccessPoints, Switches and Other Ubiquiti products
 ports=3478,10001,1900,5656:5699/udp|8080,8443,8880,8843,6789,27117/tcp

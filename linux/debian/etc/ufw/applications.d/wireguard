@@ -1,4 +1,4 @@
 [WireGuard]
-title=WireGuard VPN Server
-description=fast, modern, secure VPN tunnel 
+title=WireGuard
+description=Fast, Modern and Secure VPN Server
 ports=51820/udp

@@ -1,4 +1,4 @@
 [DNS]
-title=Domain Name Resolution Service
-description=Port 53/udp
+title=DNS Server forwarder
+description=Domain Name Server
 ports=53/udp
