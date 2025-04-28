@@ -1,0 +1,21 @@
+relay-server = 'ovadia.asuscomm.com'
+rendezvous_server = '192.168.50.10:21116'
+trusted_devices = '00n6yV65Lo+OmUjZGdaoti+Vlg'
+unlock_pin = ''
+nat_type = 1
+serial = 0
+
+
+[options]
+av1-test = 'Y'
+allow-remove-wallpaper = 'Y'
+local-ip-addr = '192.168.50.25'
+direct-access-port = '21118'
+relay-server = '192.168.50.10'
+custom-rendezvous-server = '192.168.50.10'
+key = 'tlGkA0LPFeA3yMD4Y5FXLEMYnJOkLImW4UdiFtnUanQ='
+verification-method = 'use-permanent-password'
+auto-disconnect-timeout = '10'
+allow-auto-disconnect = 'Y'
+access-mode = 'full'
+direct-server = 'Y'
