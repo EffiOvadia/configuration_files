@@ -1,16 +1,16 @@
 
 #create fstab.new 
 #$(blkid -s UUID -o value "$(findmnt -n -o SOURCE /boot/efi)")
-UUID=           /boot/efi vfat  defaults,noatime,discard,umask=0077,shortname=winnt           0 2 # EFI
-UUID=           /         ext4  defaults,noatime,discard,commit=60,errors=remount-ro          0 1 # /
-UUID=           /home     ext4  defaults,noatime,discard,commit=60,x-systemd.automoun         0 1 # home
-UUID=           none      swap  sw,discard,pri=10,nofail                                      0 0 # swap 
-tmpfs           /tmp      tmpfs defaults,noatime,mode=1777                                    0 0 # temp
+UUID=     /boot/efi vfat  defaults,noatime,discard,umask=0077,shortname=winnt           0 2 # EFI
+UUID=     /         ext4  defaults,noatime,discard,commit=60,errors=remount-ro          0 1 # /
+UUID=     /home     ext4  defaults,noatime,discard,commit=60,x-systemd.automount        0 1 # home
+UUID=     none      swap  sw,discard,pri=10,nofail                                      0 0 # swap 
+tmpfs     /tmp      tmpfs defaults,noatime,mode=1777                                    0 0 # temp
 
-UUID=           /mnt      xfs   defaults,noatime,discard,attr2,inode64,allocsize=1m           0 1
-UUID=           /mnt      ntfs  defaults,uid=1000,gid=1000,umask=0077,noatime,big_writes      0 0
-UUID=           /mnt      btrfs defaults,noatime,compress=zstd,ssd,space_cache=v2,autodefrag  0 0
-UUID=           /mnt      f2fs  defaults,noatime,discard,compress_algorithm=zstd,compress_chksum,atgc,gc_merge,background_gc=on  0 1
+UUID=     /mnt      xfs   defaults,noatime,discard,attr2,inode64,allocsize=1m           0 1
+UUID=     /mnt      ntfs  defaults,uid=1000,gid=1000,umask=0077,noatime,big_writes      0 0
+UUID=     /mnt      btrfs defaults,noatime,compress=zstd,ssd,space_cache=v2,autodefrag  0 0
+UUID=     /mnt      f2fs  defaults,noatime,discard,compress_algorithm=zstd,compress_chksum,atgc,gc_merge,background_gc=on  0 1
 
 # Mount remote NFS share
 host:/ /nfs/host nfs   nfsvers=4,_netdev,x-systemd.automount,nofail          0 0 # nfs
