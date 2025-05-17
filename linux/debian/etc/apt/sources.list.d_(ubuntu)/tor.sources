@@ -1,7 +1,7 @@
 Name: TOR Browser
 Enabled: yes
 Types: deb
-URIs: tor+https://deb.torproject.org/torproject.org
+URIs: https://deb.torproject.org/torproject.org
 Suites: stable
 Components: main
 Architectures: amd64
