@@ -2,7 +2,7 @@ X-Repolib-Name: LibreOffice
 Enabled: yes
 Types: deb
 URIs: http://ppa.launchpad.net/libreoffice/ppa/ubuntu
-Suites: oracular
+Suites: plucky
 Components: main
 Architectures: amd64
 Signed-By: 

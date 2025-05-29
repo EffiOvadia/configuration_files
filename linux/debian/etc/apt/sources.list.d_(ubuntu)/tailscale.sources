@@ -2,7 +2,7 @@ Name: Tailscale
 Enabled: yes
 Types: deb
 URIs: https://pkgs.tailscale.com/stable/ubuntu
-Suites: oracular
+Suites: plucky
 Components: main
 Architectures: amd64
 # https://pkgs.tailscale.com/stable/ubuntu/oracular.noarmor.gpg

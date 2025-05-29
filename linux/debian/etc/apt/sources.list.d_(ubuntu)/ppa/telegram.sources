@@ -2,7 +2,7 @@ Name: Telegram
 Enabled: yes
 Types: deb
 URIs: https://ppa.launchpadcontent.net/atareao/telegram/ubuntu/
-Suites: noble
+Suites: plucky
 Components: main
 Architectures: amd64
 Signed-By: 

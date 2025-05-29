@@ -3,7 +3,7 @@ Enabled: no
 Types: deb
 URIs: https://ppa.launchpadcontent.net/wireshark-dev/stable/ubuntu
 #Suites: noble
-Suites: oracular
+Suites: plucky
 Components: main
 Architectures: amd64
 Signed-By: 

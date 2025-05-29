@@ -1,12 +1,12 @@
-Name: Qbittorrent
+Name: qbittorrent
 Enabled: yes
 Types: deb
 URIs: https://ppa.launchpadcontent.net/qbittorrent-team/qbittorrent-stable/ubuntu/
-Suites: oracular
+Suites: plucky
 Components: main
 Architectures: amd64 
 Signed-By: 
------BEGIN PGP PUBLIC KEY BLOCK-----
+ -----BEGIN PGP PUBLIC KEY BLOCK-----
  .
  mQINBFR3T0EBEAC4mpN6p+Rq6P9xIFESA0uGJ9FMsReVCKmiIpKnajpCE0oOp0+o
  aAvIFZHJVwYLgRJBvyB/ACBS9Mso3QAzKfYyj9SltUfw5XcHeAi7ZyPIOx/0Y9mg

@@ -1,8 +1,8 @@
-Name: Microsoft Powershell
+Name: Microsoft identity broker
 Enabled: yes
 Types: deb
-URIs: https://packages.microsoft.com/repos/microsoft-ubuntu-plucky-prod/
-Suites: plucky
+URIs: https://packages.microsoft.com/ubuntu/24.04/prod
+Suites: noble
 Components: main
 Architectures: amd64
 # https://packages.microsoft.com/keys/microsoft.asc

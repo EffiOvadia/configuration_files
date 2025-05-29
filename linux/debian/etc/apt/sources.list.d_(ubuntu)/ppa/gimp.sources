@@ -3,7 +3,7 @@ Enabled: no
 Types: deb
 URIs: https://ppa.launchpadcontent.net/ubuntuhandbook1/gimp-3/ubuntu/
 #Suites: noble
-Suites: oracular
+Suites: plucky
 Components: main
 Architectures: amd64
 Signed-By:
