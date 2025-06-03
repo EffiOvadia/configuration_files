@@ -5,7 +5,6 @@ URIs: https://ppa.launchpadcontent.net/yubico/stable/ubuntu/
 Suites: noble
 Components: main
 Architectures: arm64
-Signed-By:
  -----BEGIN PGP PUBLIC KEY BLOCK-----
  .
  mQINBGY0fcoBEADCzGpOqTvCbTW4+wCrI8838MhKbdv25479RtRWMWCWJfUNvSwZ

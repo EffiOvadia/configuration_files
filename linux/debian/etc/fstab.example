@@ -13,7 +13,9 @@ UUID=     /mnt      btrfs defaults,noatime,compress=zstd,ssd,space_cache=v2,auto
 UUID=     /mnt      f2fs  defaults,noatime,discard,compress_algorithm=zstd,compress_chksum,atgc,gc_merge,background_gc=on  0 1
 
 # Mount remote NFS share
-host:/ /nfs/host nfs   nfsvers=4,_netdev,x-systemd.automount,nofail          0 0 # nfs
+host:/    /nfs/host nfs4  nfsvers=4,_netdev,x-systemd.automount,nofail                  0 0 # nfs
+# Mount remote SMB share
+//host/share /smb/host cifs vers=3.1.1,credentials=/etc/samba/credentials,uid=1000,gid=1000,iocharset=utf8,_netdev,x-systemd.automount,nofail 0 0
 
 # collect and Update fstab with UUIDs onto the fstab file
 lsblk -p -o TYPE,UUID,MOUNTPOINT,FSTYPE,PATH -P | awk -F'"' '$2=="part" {print "UUID="$4,$6,$8,"defaults,noatime,discard 0 1"}' | column -t
