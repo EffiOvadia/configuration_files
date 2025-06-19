@@ -1,7 +1,7 @@
 Name: VSCode
 Enabled: yes
 Types: deb
-URIs: https://packages.microsoft.com/repos/vscode https://packages.microsoft.com/repos/code/
+URIs: https://packages.microsoft.com/repos/code/
 Suites: stable
 Components: main
 Architectures: amd64
