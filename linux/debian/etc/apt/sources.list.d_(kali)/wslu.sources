@@ -1,8 +1,8 @@
 Name: WSLU
 Enabled: yes
 Types: deb
-URIs: https://pkgs.wedotstud.io/wslu/debian
-Suites: bookworm
+URIs: https://pkgs.wedotstud.io/wslu/kali
+Suites: kali-rolling
 Components: main
 Architectures: amd64
 # https://pkgs.wedotstud.io/wslu/public.key
