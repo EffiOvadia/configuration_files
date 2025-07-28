@@ -1,8 +1,9 @@
 Name: Openvpn
 Enabled: yes
 Types: deb
-URIs: https://build.openvpn.net/debian/openvpn/release/2.6
-Suites: noble
+# URIs: https://build.openvpn.net/debian/openvpn/release/2.7/
+URIs: https://build.openvpn.net/debian/openvpn/stable/
+Suites: oracular
 Components: main
 Architectures: amd64
 # https://swupdate.openvpn.net/repos/repo-public.gpg
@@ -24,12 +25,12 @@ Signed-By:
  cnraVXjTIr11CEXD8TS56sm9A3LPZTWD7jytUeRCh0kdixFI7ax1tkqDYtELfWg8
  0YRWmT30o/k5hMZKWF5uwddbebfPB3EVHUtxzrnsxHReEVZBiQFVBBMBCAA/AhsD
  BgsJCAcDAgYVCAIJCgsEFgIDAQIeAQIXgBYhBDDr9Oc8zmPu4STdJ45tqLThWMVp
- BQJfH7LvBQkaTHWtAAoJEI5tqLThWMVpwLkH/19yyUYxqoh2M53G7YZ/Uo3ihHYN
- Nt4fAx6uRA0DHnrGD83EH1oNO6yQ15UazKXOlLKix+E3UN8rSP3eaZRoXusNpFZQ
- o4CZ060fx5TJQk7d8N6mGpmLaf7rIZ9cjR9dtX3IY/c9PTryxPiJPkThg4GaZj0S
- U3cpmWicK4EiRAhmPnNf1bI8qgdaEQTE8mnOFGTHmdwjKmg69P4r1AVO6GGTiPUl
- 2avInNDyQcDywRStmSYt1uXI0gTQGpO6tsqcu3GzO6I1qPGlssnKJEcRTYy3/SX+
- 6kD4QS5qnpWGaUjmTfNp1QNCgMkyEtXxG/Aj+HO3AAUW1rLLEYLOSCQGB4SJARwE
+ BQJoh3AXBQkjtDLVAAoJEI5tqLThWMVpXykH/2qlkZeH3milGjByS71Gx32sObuy
+ qk72kWDL48mVE+/Y8JOXFCIHX+fXUC0ifvPfKSs+qDaBfvR3vJ/Qh3357qb9Ybe5
+ jlg6KqHWtlJUwXds3i/W4hg2Z2RyAYW69jrcB1q3XtnBertSrkUte8nqShgjHIv4
+ oDOOhatGcR9vTX1mjXjs3tZz0G0Rsbone9DbpRPg2rdNnPsH5VSzMOSGFJezbmog
+ EdA6X6KmyYImJuFAK3i3QFH24sK+7Jp3alEJL0vGc6IIkazOezikAPjZow1XzApk
+ d+fUhIkn9umcE4Q6IHmgDnT8cw+HDqvVW4U9r8Imc9mtj5cjJKxyd4RcQ7eJARwE
  EAEIAAYFAlVDl7cACgkQKwRyzuXQlJnMfQf9GhhvvpZzOSMqOSqlOwilr6Xoq+H+
  o4IyIc5UR7TlcxhuSu4PDmHXmINU3Qlm2SkmEMCjFvnqiQRPz2CEwgWPOOo5pGJ5
  Y5aTXLJ+7CpFI2/vB6J2xFyq54gNxRnix+n1+9OV90YowmzSMAgGdxo+akx5WIAM
@@ -154,12 +155,12 @@ Signed-By:
  ZTNm9RzzQj4xgvoDNF7+60hZwGdnafJ1nRK9YpEnSU6zr17oqgVV4TlBfOZNeSPN
  JtH143cAObaPQSMuem3/NHiEXyziXgct1F1Kfju0B29qGw1+BaY5+JAPxu2e7wOI
  yIkx3wilWxlf/MIltJQKFwARAQABiQE8BBgBCAAmAhsMFiEEMOv05zzOY+7hJN0n
- jm2otOFYxWkFAl8fs08FCRpMdg0ACgkQjm2otOFYxWnl3Qf9Hh/5jeNLtkYX7TdD
- bY+XAdyC6Su7UfHD5EK5b8mQJsFZE1GOyw2f0apnPNPQduqhdzNi8/HAuuj6xWPX
- 98v7lnNUEaioPRo2TPOQEtgUc0/izMnLkYmKtUvldadsUIJYCr96vpa4M0AyeEAr
- M3QmVZdJbnwKipTrgnIrAZ03S2nIzP/PKWYdbpM8Lypve8kI1qXxZhyyigP0YLW0
- f6iDZnVLF6A0tWWAzMsx22esfGCTmbD84DwUvbqjfAMDB8+ABoJhIv3g+Tw4FTM2
- 7qzFzSzcRRS0+nFVAlC06MygX06f253BDh3+Jfjht1YMHtUVXcVN3FR8VcSTSq79
- f/xF/w==
- =/vEq
+ jm2otOFYxWkFAmiHcDwFCSO0MvoACgkQjm2otOFYxWkETgf/cqLBiNlUmnxamBk5
+ nwa3suzDjncvFbpEcqhEMTW2rnprArW/1qtITujw4dyaUMjKVZknErrse5lon4QS
+ QGvVjdLQDJov0QdF5iZ0dykjl9bPCp+g1AD8I2p8uDB2Jb295R2qnLW/MCtMGPu7
+ Rgib/jg9726P484WAPxlD3uMc7QjWSTJ7A15Knb0rctOxztbwuUMhw/db5gk6dYk
+ De6voAKmW6ijwTHDh47g3cWVr/1LO28jcv3BaVKCHR/sHABWkGqUuCwhnJP8QFxJ
+ tJNtz5b6iFj4KsC4Wb7nEUJqeCRAwcB1a7oGBU9dOJHwrHoUgknOoKue5yGwa643
+ A+ZbAQ==
+ =KYa9
  -----END PGP PUBLIC KEY BLOCK-----
