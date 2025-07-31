@@ -1,7 +1,6 @@
 Name: Openvpn
 Enabled: yes
 Types: deb
-# URIs: https://build.openvpn.net/debian/openvpn/release/2.7/
 URIs: https://build.openvpn.net/debian/openvpn/stable/
 Suites: oracular
 Components: main
