@@ -50,7 +50,7 @@
             "opacity": 90,
             "font": 
             {
-              "face": "Cascadia Code NF", "size": 17, "weight": "extra-light",
+              "face": "Cascadia Code NF", "size": 15, "weight": "extra-light",
               "features": { "ss01": 1, "ss02": 1, "ss03": 1, "ss04": 1, "ss05": 1, "ss06": 1, "zero": 1, "onum": 1 },
               "axes": { "ital": 0, "wght": 200, "slnt": -10 }
             }
