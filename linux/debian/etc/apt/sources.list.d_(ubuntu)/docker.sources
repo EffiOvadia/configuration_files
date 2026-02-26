@@ -5,8 +5,8 @@ URIs: https://download.docker.com/linux/ubuntu
 #Suites: noble
 Suites: plucky
 Components: stable
-# https://download.docker.com/linux/ubuntu/gpg
 Architectures: amd64
+# https://download.docker.com/linux/ubuntu/gpg
 Signed-By: 
  -----BEGIN PGP PUBLIC KEY BLOCK-----
  .
