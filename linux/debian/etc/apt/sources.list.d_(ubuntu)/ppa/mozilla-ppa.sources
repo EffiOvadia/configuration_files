@@ -1,4 +1,4 @@
-X-Repolib-Name: Firefox & Thunderbird (ppa)
+Name: Firefox & Thunderbird (ppa)
 Enabled: yes
 Types: deb
 URIs: https://ppa.launchpadcontent.net/mozillateam/ppa/ubuntu/
