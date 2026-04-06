@@ -60,6 +60,7 @@
                 "backgroundImage": "ms-appdata:///Local/powershell.png",
                 "commandline": "pwsh -NoLogo -WorkingDirectory ~",
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "icon": "ms-appx:///ProfileIcons/pwsh.png",
                 "hidden": false,
                 "name": "PowerShell \u26a1",
                 "source": "Windows.Terminal.PowershellCore"
@@ -94,18 +95,10 @@
                 "hidden": false,
                 "icon": "ms-appdata:///Local/Ubuntu.ico",
                 "name": "Ubuntu",
+                "pathTranslationStyle": "wsl",
+                "wsl.distribution-type": "ubuntu",
+                "wsl.distribution-version": "25.04",
                 "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
-            },
-            {
-                // Ubuntu 25.04
-                "backgroundImage": "ms-appdata:///Local/ubuntu.png",
-                "commandline": "wsl -d Ubuntu-25.04 -u root",
-                "cursorColor": "#00CCFF",
-                "guid": "{ef80a80a-ff63-5933-8bb8-4b0aa8b1014f}",
-                "hidden": false,
-                "icon": "ms-appdata:///Local/Ubuntu.ico",
-                "name": "Ubuntu 25.04",
-                "source": "Microsoft.WSL"
             },
             {
                 // Ubuntu 24.04 LTS
@@ -115,6 +108,9 @@
                 "hidden": false,
                 "icon": "ms-appdata:///Local/Ubuntu.ico",
                 "name": "Ubuntu 24.04 LTS",
+                "pathTranslationStyle": "wsl",
+                "wsl.distribution-type": "ubuntu",
+                "wsl.distribution-version": "24.04",
                 "source": "CanonicalGroupLimited.Ubuntu24.04LTS_79rhkp1fndgsc"
             },
             {
@@ -125,16 +121,9 @@
                 "hidden": false,
                 "icon": "ms-appdata:///Local/Debian.ico",
                 "name": "Debian GNU/Linux",
-                "source": "Microsoft.WSL"
-            },
-            {
-                // Oracle Linux 9.5
-                "backgroundImage": "ms-appdata:///Local/oracle.png",
-                "commandline": "wsl -d OracleLinux_9_4 -u root",
-                "guid": "{3dcd5bf3-8db2-5fd0-9927-1bfb9c194862}",
-                "hidden": false,
-                "icon": "ms-appdata:///Local/Oracle.ico",
-                "name": "Oracle Linux 9.5",
+                "pathTranslationStyle": "wsl",
+                "wsl.distribution-type": "debian",
+                "wsl.distribution-version": "12",
                 "source": "Microsoft.WSL"
             },
             {
@@ -145,15 +134,19 @@
                 "hidden": false,
                 "icon": "ms-appdata:///Local/Kali.ico",
                 "name": "Kali Linux Rolling",
+                "pathTranslationStyle": "wsl",
+                "wsl.distribution-type": "kali",
+                "wsl.distribution-version": "2025.1",
                 "source": "Microsoft.WSL"
             },
             {
-                // Fedora Linux 42
-                "commandline": "wsl -d FedoraLinux-42 -u root",
+                // Fedora Linux 43
+                "commandline": "wsl -d FedoraLinux-43 -u root",
                 "guid": "{a0f3061c-98fd-59a9-a019-beb08917bb7d}",
                 "hidden": false,
                 "icon": "ms-appdata:///Local/Fedora.ico",
-                "name": "FedoraLinux 42",
+                "name": "FedoraLinux 43",
+                "pathTranslationStyle": "wsl",
                 "source": "Microsoft.WSL"
             },
             {
@@ -163,14 +156,7 @@
                 "hidden": false,
                 "icon": "ms-appdata:///Local/Arch.ico",
                 "name": "ArchLinux",
-                "source": "Microsoft.WSL"
-            },
-            {
-                // AlmaLinux 10
-                "commandline": "wsl -d AlmaLinux-Kitten-10 -u effio",
-                "guid": "{fc0b5fcb-9c82-58c1-a53c-00e60da1ee54}",
-                "hidden": false,
-                "name": "AlmaLinux Kitten 10",
+                "pathTranslationStyle": "wsl",
                 "source": "Microsoft.WSL"
             },
             {
@@ -196,11 +182,11 @@
                 // Git Bash
                 "foreground": "#BCC000",
                 "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
-                "hidden": true,
+                "hidden": false,
                 "icon": "ms-appdata:///Local/git.ico",
                 "name": "Git Bash",
                 "source": "Git",
-                "startingDirectory": "~/git",
+                "startingDirectory": "~",
                 "useAcrylic": true
             }
         ]
