@@ -2,8 +2,7 @@ Name: Docker
 Enabled: yes
 Types: deb
 URIs: https://download.docker.com/linux/ubuntu
-#Suites: noble
-Suites: plucky
+Suites: resolute
 Components: stable
 Architectures: amd64
 # https://download.docker.com/linux/ubuntu/gpg

@@ -1,8 +1,8 @@
 Name: LibreOffice
 Enabled: yes
 Types: deb
-URIs: http://ppa.launchpad.net/libreoffice/ppa/ubuntu
-Suites: plucky
+URIs: https://ppa.launchpad.net/libreoffice/ppa/ubuntu
+Suites: resolute
 Components: main
 Architectures: amd64
 Signed-By: 

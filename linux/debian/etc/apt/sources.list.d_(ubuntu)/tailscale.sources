@@ -2,10 +2,10 @@ Name: Tailscale
 Enabled: yes
 Types: deb
 URIs: https://pkgs.tailscale.com/stable/ubuntu
-Suites: plucky
+Suites: resolute
 Components: main
 Architectures: amd64
-# https://pkgs.tailscale.com/stable/ubuntu/oracular.noarmor.gpg
+# https://pkgs.tailscale.com/stable/ubuntu/resolute.noarmor.gpg
 Signed-By:
  -----BEGIN PGP PUBLIC KEY BLOCK-----
  .

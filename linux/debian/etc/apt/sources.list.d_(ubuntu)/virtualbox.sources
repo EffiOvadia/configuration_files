@@ -2,8 +2,7 @@ Name: Oracle VirualBox
 Enabled: yes
 Types: deb
 URIs: https://download.virtualbox.org/virtualbox/debian
-Suites: oracular
-#Suites: noble
+Suites: resolute
 Components: non-free contrib
 Architectures: amd64
 # https://www.virtualbox.org/download/oracle_vbox_2016.asc

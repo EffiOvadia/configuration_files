@@ -2,7 +2,7 @@ Name: qbittorrent
 Enabled: yes
 Types: deb
 URIs: https://ppa.launchpadcontent.net/qbittorrent-team/qbittorrent-stable/ubuntu/
-Suites: plucky
+Suites: resolute
 Components: main
 Architectures: amd64 
 Signed-By: 

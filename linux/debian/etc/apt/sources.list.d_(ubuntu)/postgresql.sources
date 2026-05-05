@@ -2,8 +2,7 @@ Name: PostgreSQL
 Enabled: yes
 Types: deb
 URIs: http://apt.postgresql.org/pub/repos/apt
-#Suites: noble-pgdg
-Suites: plucky-pgdg
+Suites: resolute-pgdg
 Components: main
 Architectures: amd64
 # https://www.postgresql.org/media/keys/ACCC4CF8.asc

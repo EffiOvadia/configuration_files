@@ -2,7 +2,7 @@ Name: Firefox & Thunderbird (ppa)
 Enabled: yes
 Types: deb
 URIs: https://ppa.launchpadcontent.net/mozillateam/ppa/ubuntu/
-Suites: plucky
+Suites: resolute
 Components: main
 Architectures: amd64
 Signed-By: 

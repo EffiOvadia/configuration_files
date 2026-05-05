@@ -2,8 +2,7 @@ Name: Dropbox
 Enabled: yes
 Types: deb
 URIs: http://linux.dropbox.com/ubuntu
-#Suites: noble
-Suites: oracular
+Suites: resolute
 Components: main
 Architectures: amd64
 # https://linux.dropbox.com/fedora/rpm-public-key.asc
