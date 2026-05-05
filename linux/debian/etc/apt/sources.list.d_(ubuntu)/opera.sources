@@ -1,7 +1,7 @@
 Name: Opera Browser
 Enabled: yes
 Types: deb
-URIs: https://deb.opera.com/opera-stable/
+URIs: http://deb.opera.com/opera-stable/
 Suites: stable
 Components: non-free
 Architectures: amd64

@@ -1,4 +1,4 @@
-X-Repolib-Name: LibreOffice
+Name: LibreOffice
 Enabled: yes
 Types: deb
 URIs: http://ppa.launchpad.net/libreoffice/ppa/ubuntu

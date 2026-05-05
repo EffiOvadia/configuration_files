@@ -5,7 +5,6 @@ URIs: https://ppa.launchpadcontent.net/i2p-maintainers/i2p/ubuntu/
 Suites: plucky
 Components: main
 Architectures: amd64
-# 
 Signed-By:
  -----BEGIN PGP PUBLIC KEY BLOCK-----
  .
