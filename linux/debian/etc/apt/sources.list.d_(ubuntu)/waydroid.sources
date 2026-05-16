@@ -2,7 +2,7 @@ Name: Waydroid
 Enabled: yes
 Types: deb
 URIs: https://repo.waydro.id/
-Suites: plucky
+Suites: resolute
 Components: main
 Architectures: amd64 
 # https://repo.waydro.id/waydroid.gpg
