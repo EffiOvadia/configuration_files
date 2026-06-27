@@ -1,20 +1,17 @@
 rendezvous_server = '172.232.211.116:21116'
-nat_type = 1
+nat_type = 2
 serial = 0
 unlock_pin = ''
-trusted_devices = '00bmcqKjkjq9VjPpIKIiY4n2nn'
+trusted_devices = '00AYbxJbKoCI7UB+nG2ImSLHbZXf5cPULKG08tr5Y0FeoTieNqO9Z2n9Exew=='
 
 [options]
-relay-server = '172.232.211.116'
-temporary-password-length = '6'
-enable-lan-discovery = 'N'
-custom-rendezvous-server = '172.232.211.116'
-key = 'FGnqzqGE19xjRrIkoWCoLTOfKJtKh06dLYRmnzOjJRs='
-verification-method = 'use-permanent-password'
-auto-disconnect-timeout = '5'
-allow-auto-disconnect = 'Y'
-allow-auto-update = 'Y'
-direct-server = 'Y'
 av1-test = 'Y'
+custom-rendezvous-server = '172.232.211.116'
+auto-disconnect-timeout = '5'
+allow-remote-config-modification = 'Y'
+relay-server = '172.232.211.116'
+allow-auto-update = 'Y'
+enable-lan-discovery = 'N'
+allow-remove-wallpaper = 'Y'
 access-mode = 'full'
-
+key = 'FGnqzqGE19xjRrIkoWCoLTOfKJtKh06dLYRmnzOjJRs='

@@ -79,7 +79,7 @@
                 // Cygwin X64
                 "adjustIndistinguishableColors": "always",
                 "backgroundImage": "ms-appdata:///Local/cygwin.png",
-                "commandline": "%SystemDrive%/Cygwin64/bin/bash --login -i",
+                "commandline": "%SystemDrive%//Cygwin64//bin//bash.exe --login -i",
                 "cursorColor": "#00FF00",
                 "guid": "{a8029c17-5fa8-48d3-ba23-8c158ac3785f}",
                 "hidden": false,
@@ -89,7 +89,7 @@
             {
                 // Ubuntu 26.04 LTS 
                 "backgroundImage": "ms-appdata:///Local/ubuntu.png",
-                "commandline": "wsl -d Ubuntu-26.04 -u root",
+                "commandline": "wsl -d Ubuntu-26.04",
                 "guid": "{3593f4f8-fa59-56e5-915e-dad2cf127b91}",
                 "hidden": false,
                 "name": "Ubuntu-26.04",
@@ -100,7 +100,7 @@
             {
                 // Ubuntu 
                 "backgroundImage": "ms-appdata:///Local/ubuntu.png",
-                "commandline": "wsl -d ubuntu -u root",
+                "commandline": "wsl -d ubuntu",
                 "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
                 "hidden": false,
                 "icon": "ms-appdata:///Local/Ubuntu.ico",
@@ -112,7 +112,7 @@
             {
                 // Ubuntu 24.04 LTS
                 "backgroundImage": "ms-appdata:///Local/ubuntu.png",
-                "commandline": "wsl -d Ubuntu-24.04 -u root",
+                "commandline": "wsl -d Ubuntu-24.04",
                 "guid": "{d8e96812-b789-5068-a5ae-10b2fb53e95f}",
                 "hidden": false,
                 "icon": "ms-appdata:///Local/Ubuntu.ico",
@@ -124,7 +124,7 @@
             {
                 // Debian GNU/Linux
                 "backgroundImage": "ms-appdata:///Local/debian.png",
-                "commandline": "wsl -d debian -u root",
+                "commandline": "wsl -d debian",
                 "guid": "{d187cfb1-b46f-5ac1-8c8d-2fc5b94f30cb}",
                 "hidden": false,
                 "icon": "ms-appdata:///Local/Debian.ico",
@@ -136,7 +136,7 @@
             {
                 // Kali Linux Rolling
                 "backgroundImage": "ms-appdata:///Local/kali.png",
-                "commandline": "wsl -d kali-linux -u root",
+                "commandline": "wsl -d kali-linux",
                 "guid": "{817cd70a-734e-548e-83d8-3620037ff3b2}",
                 "hidden": false,
                 "icon": "ms-appdata:///Local/Kali.ico",
@@ -179,8 +179,9 @@
                 // Command Prompt
                 "foreground": "#BBB000",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": true,
                 "name": "Command Prompt",
+                "hidden": true,
+                "experimental.retroTerminalEffect": true,
                 "startingDirectory": "%SYSTEMDRIVE%/",
                 "useAcrylic": true
             },
