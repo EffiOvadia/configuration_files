@@ -1,4 +1,4 @@
-Name: Cuda
+X-Repolib-Name: Cuda
 Enabled: yes
 Types: deb
 URIs: https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/sbsa/

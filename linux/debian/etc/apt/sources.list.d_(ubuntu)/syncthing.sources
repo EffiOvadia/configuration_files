@@ -1,4 +1,4 @@
-Name: Syncthing
+X-Repolib-Name: Syncthing
 Enabled: yes
 Types: deb
 URIs: https://apt.syncthing.net/

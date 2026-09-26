@@ -1,4 +1,4 @@
-Name: Synaptics
+X-Repolib-Name: Synaptics
 Enabled: yes
 Types: deb
 URIs: https://www.synaptics.com/sites/default/files/Ubuntu

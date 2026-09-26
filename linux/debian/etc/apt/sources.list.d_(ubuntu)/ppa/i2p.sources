@@ -1,4 +1,4 @@
-Name: I2P
+X-Repolib-Name: I2P
 Enabled: yes
 Types: deb
 URIs: https:/ppa.launchpadcontent.net/i2p-maintainers/i2p/ubuntu/

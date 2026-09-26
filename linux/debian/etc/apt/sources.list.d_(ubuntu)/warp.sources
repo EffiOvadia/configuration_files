@@ -1,4 +1,4 @@
-Name: Warp Terminal
+X-Repolib-Name: Warp Terminal
 Enabled: yes
 Types: deb
 URIs: https://releases.warp.dev/linux/deb

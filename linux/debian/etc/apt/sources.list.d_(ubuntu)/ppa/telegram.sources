@@ -1,4 +1,4 @@
-Name: Telegram
+X-Repolib-Name: Telegram
 Enabled: yes
 Types: deb
 URIs: https://ppa.launchpadcontent.net/atareao/telegram/ubuntu/

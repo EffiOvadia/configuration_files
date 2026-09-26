@@ -1,4 +1,4 @@
-Name:  Microsoft Edge
+X-Repolib-Name: Microsoft Edge
 Enabled: yes
 Types: deb
 URIs: https://packages.microsoft.com/repos/edge/

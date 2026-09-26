@@ -1,4 +1,4 @@
-Name: Claude AI Chat
+X-Repolib-Name: Claude AI Chat
 Enabled: yes
 Types: deb
 URIs: https://downloads.claude.ai/claude-desktop/apt/stable

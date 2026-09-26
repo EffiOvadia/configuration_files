@@ -1,4 +1,4 @@
-Name: Graphics Drivers (NVIDIA)
+X-Repolib-Name: Graphics Drivers (NVIDIA)
 Enabled: yes
 Types: deb
 URIs: https://ppa.launchpadcontent.net/graphics-drivers/ppa/ubuntu

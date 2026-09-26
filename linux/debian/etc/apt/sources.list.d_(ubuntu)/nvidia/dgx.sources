@@ -1,4 +1,4 @@
-Name: DGX
+X-Repolib-Name: DGX
 Enabled: yes
 Types: deb
 URIs: https://repo.download.nvidia.com/baseos/ubuntu/noble/arm64/

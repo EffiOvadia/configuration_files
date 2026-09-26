@@ -1,4 +1,4 @@
-Name: Helium Browser
+X-Repolib-Name: Helium Browser
 Enabled: yes
 Types: deb
 URIs: https://pkg.helium.computer/deb

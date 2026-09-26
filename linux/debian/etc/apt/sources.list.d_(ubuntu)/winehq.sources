@@ -1,4 +1,4 @@
-Name: WineHQ
+X-Repolib-Name: WineHQ
 Enabled: yes
 Types: deb
 URIs: https://dl.winehq.org/wine-builds/ubuntu

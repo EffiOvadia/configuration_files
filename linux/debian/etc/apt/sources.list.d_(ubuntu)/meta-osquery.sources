@@ -1,4 +1,4 @@
-Name: Meta OSquery
+X-Repolib-Name: Meta OSquery
 Enabled: yes
 Types: deb
 URIs: https://pkg.osquery.io/deb

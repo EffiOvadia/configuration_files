@@ -1,4 +1,4 @@
-Name: Mullvad
+X-Repolib-Name: Mullvad
 Enabled: yes
 Types: deb
 URIs: https://repository.mullvad.net/deb/stable

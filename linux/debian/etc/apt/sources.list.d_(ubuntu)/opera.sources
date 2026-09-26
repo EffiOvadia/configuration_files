@@ -1,4 +1,4 @@
-Name: Opera Browser
+X-Repolib-Name: Opera Browser
 Enabled: yes
 Types: deb
 URIs: http://deb.opera.com/opera-stable/

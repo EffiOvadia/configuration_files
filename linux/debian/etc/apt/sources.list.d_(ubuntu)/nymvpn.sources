@@ -1,4 +1,4 @@
-Name: NymVPN
+X-Repolib-Name: NymVPN
 Enabled: yes
 Types: deb
 URIs: https://apt-ppa.nym.com/

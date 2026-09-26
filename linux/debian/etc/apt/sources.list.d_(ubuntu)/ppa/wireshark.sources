@@ -1,4 +1,4 @@
-Name: Wireshark
+X-Repolib-Name: Wireshark
 Enabled: no
 Types: deb
 URIs: https://ppa.launchpadcontent.net/wireshark-dev/stable/ubuntu

@@ -1,4 +1,4 @@
-Name: Ubiquiti Unifi Contoller
+X-Repolib-Name: Ubiquiti Unifi Contoller
 Enabled: yes
 Types: deb
 URIs: https://www.ui.com/downloads/unifi/debian

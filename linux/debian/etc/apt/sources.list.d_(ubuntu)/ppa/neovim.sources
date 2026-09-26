@@ -1,4 +1,4 @@
-Name: NeoVIM
+X-Repolib-Name: NeoVIM
 Enabled: yes
 Types: deb
 URIs: https://ppa.launchpadcontent.net/neovim-ppa/unstable/ubuntu/

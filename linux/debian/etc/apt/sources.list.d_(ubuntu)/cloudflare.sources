@@ -1,4 +1,4 @@
-Name: Cloudflare Cloudflared 
+X-Repolib-Name: Cloudflare Cloudflared 
 Enabled: yes
 Types: deb
 URIs: https://pkg.cloudflare.com/cloudflared

@@ -1,4 +1,4 @@
-Name: IVPN
+X-Repolib-Name: IVPN
 Enabled: yes
 Types: deb
 URIs: https://repo.ivpn.net/stable/ubuntu

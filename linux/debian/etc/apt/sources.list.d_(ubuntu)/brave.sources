@@ -1,4 +1,4 @@
-Name: Brave Browser
+X-Repolib-Name: Brave Browser
 Enabled: yes
 Types: deb
 URIs: https://brave-browser-apt-release.s3.brave.com/

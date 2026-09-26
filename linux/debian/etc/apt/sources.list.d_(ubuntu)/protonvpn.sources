@@ -1,4 +1,4 @@
-Name: Proton VPN
+X-Repolib-Name: Proton VPN
 Enabled: yes
 Types: deb
 URIs: https://repo.protonvpn.com/debian

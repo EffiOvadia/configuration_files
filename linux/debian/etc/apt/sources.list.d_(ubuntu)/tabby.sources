@@ -1,4 +1,4 @@
-Name: Tabby Terminal
+X-Repolib-Name: Tabby Terminal
 Enabled: yes
 Types: deb
 URIs: https://packagecloud.io/eugeny/tabby/ubuntu/

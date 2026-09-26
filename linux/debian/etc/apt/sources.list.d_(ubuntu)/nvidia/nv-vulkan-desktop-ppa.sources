@@ -1,4 +1,4 @@
-Name: NV Vulkan
+X-Repolib-Name: NV Vulkan
 Enabled: yes
 Types: deb
 URIs: https://snapshot.ppa.launchpadcontent.net/canonical-nvidia/vulkan-packages-nv-desktop/ubuntu/

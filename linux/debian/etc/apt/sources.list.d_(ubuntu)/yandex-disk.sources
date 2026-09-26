@@ -1,4 +1,4 @@
-Name: Yandex Disk
+X-Repolib-Name: Yandex Disk
 Enabled: yes
 Types: deb
 URIs: http://repo.yandex.ru/yandex-disk/deb/

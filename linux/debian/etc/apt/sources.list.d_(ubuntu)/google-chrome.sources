@@ -1,4 +1,4 @@
-Name: Google Chrome
+X-Repolib-Name: Google Chrome
 Enabled: yes
 Types: deb
 URIs: https://dl.google.com/linux/chrome/deb/

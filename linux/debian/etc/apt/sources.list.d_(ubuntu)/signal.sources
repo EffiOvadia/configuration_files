@@ -1,4 +1,4 @@
-Name: Signal Private Messenger
+X-Repolib-Name: Signal Private Messenger
 Enabled: yes
 Types: deb
 URIs: https://updates.signal.org/desktop/apt

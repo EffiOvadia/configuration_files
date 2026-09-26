@@ -1,4 +1,4 @@
-Name: Canonical NVIDIA Ubuntu NVIDIA Desktop Edge
+X-Repolib-Name: Canonical NVIDIA Ubuntu NVIDIA Desktop Edge
 Enabled: yes
 Types: deb
 URIs: https://snapshot.ppa.launchpadcontent.net/canonical-nvidia/nvidia-desktop-edge/ubuntu/

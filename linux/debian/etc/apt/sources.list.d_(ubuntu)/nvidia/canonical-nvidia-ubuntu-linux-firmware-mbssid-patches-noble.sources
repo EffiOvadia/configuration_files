@@ -1,4 +1,4 @@
-Name: Canonical NVIDIA Linux Firmware MBSSID Patches
+X-Repolib-Name: Canonical NVIDIA Linux Firmware MBSSID Patches
 Enabled: yes
 Types: deb
 URIs: https://snapshot.ppa.launchpadcontent.net/canonical-nvidia/linux-firmware-mbssid-patches/ubuntu/

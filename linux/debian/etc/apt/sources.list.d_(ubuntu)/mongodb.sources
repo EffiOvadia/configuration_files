@@ -1,4 +1,4 @@
-Name: MongoDB
+X-Repolib-Name: MongoDB
 Enabled: yes
 Types: deb
 URIs: http://repo.mongodb.org/apt/ubuntu

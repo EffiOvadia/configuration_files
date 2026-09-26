@@ -1,4 +1,4 @@
-Name: Tailscale
+X-Repolib-Name: Tailscale
 Enabled: yes
 Types: deb
 URIs: https://pkgs.tailscale.com/stable/ubuntu

@@ -1,4 +1,4 @@
-Name: Firefox
+X-Repolib-Name: Firefox
 Enabled: yes
 Types: deb
 URIs: https://packages.mozilla.org/apt

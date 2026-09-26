@@ -1,4 +1,4 @@
-Name: NextDNS
+X-Repolib-Name: NextDNS
 Enabled: yes
 Types: deb
 URIs: https://repo.nextdns.io/deb

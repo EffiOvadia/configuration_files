@@ -1,4 +1,4 @@
-Name: Dropbox
+X-Repolib-Name: Dropbox
 Enabled: yes
 Types: deb
 URIs: http://linux.dropbox.com/ubuntu

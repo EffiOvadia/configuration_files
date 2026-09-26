@@ -1,4 +1,4 @@
-Name: VSCode
+X-Repolib-Name: VSCode
 Enabled: yes
 Types: deb
 URIs: https://packages.microsoft.com/repos/code/

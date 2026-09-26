@@ -1,4 +1,4 @@
-Name: WezTerm
+X-Repolib-Name: WezTerm
 Enabled: yes
 Types: deb
 URIs: https://apt.fury.io/wez/

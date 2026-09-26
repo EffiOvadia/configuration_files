@@ -1,0 +1,6 @@
+X-Repolib-Name: Local Repository
+Enabled: yes
+Types: deb
+URIs: file:/var/local/repository/
+Suites: ./
+Trusted: yes

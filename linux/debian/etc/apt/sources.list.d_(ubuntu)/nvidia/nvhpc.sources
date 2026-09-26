@@ -1,4 +1,4 @@
-Name: NVHPC
+X-Repolib-Name: NVHPC
 Enabled: yes
 Types: deb
 URIs: https://developer.download.nvidia.com/hpc-sdk/ubuntu/arm64/

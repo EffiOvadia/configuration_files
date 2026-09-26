@@ -1,4 +1,4 @@
-Name: Twingate
+X-Repolib-Name: Twingate
 Enabled: yes
 Types: deb
 URIs: https://packages.twingate.com/apt/

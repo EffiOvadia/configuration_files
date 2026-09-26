@@ -1,4 +1,4 @@
-Name: Google Antigravity
+X-Repolib-Name: Google Antigravity
 Enabled: yes
 Types: deb
 URIs: https://us-central1-apt.pkg.dev/projects/antigravity-auto-updater-dev/

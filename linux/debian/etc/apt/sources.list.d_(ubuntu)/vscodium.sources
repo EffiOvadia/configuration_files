@@ -1,4 +1,4 @@
-Name: VSCodium
+X-Repolib-Name: VSCodium
 Enabled: yes
 Types: deb
 URIs: https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/debs

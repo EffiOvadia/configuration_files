@@ -1,4 +1,4 @@
-Name: qbittorrent
+X-Repolib-Name: qbittorrent
 Enabled: yes
 Types: deb
 URIs: https://ppa.launchpadcontent.net/qbittorrent-team/qbittorrent-stable/ubuntu/

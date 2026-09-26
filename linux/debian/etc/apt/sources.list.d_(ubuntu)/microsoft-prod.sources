@@ -1,4 +1,4 @@
-Name: Microsoft Powershell, Microsoft Remote Desktop
+X-Repolib-Name: Microsoft Powershell, Microsoft Remote Desktop
 Enabled: yes
 Types: deb
 URIs: https://packages.microsoft.com/repos/microsoft-ubuntu-noble-prod/

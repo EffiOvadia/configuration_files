@@ -1,4 +1,4 @@
-Name: Vivaldi Browser
+X-Repolib-NameName: Vivaldi Browser
 Enabled: yes
 Types: deb
 URIs: https://repo.vivaldi.com/archive/deb/

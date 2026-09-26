@@ -1,4 +1,4 @@
-Name: ai-workbench-desktop-key
+X-Repolib-Name: ai-workbench-desktop-key
 Enabled: yes
 Types: deb
 URIs: https://workbench.download.nvidia.com/stable/linux/debian
