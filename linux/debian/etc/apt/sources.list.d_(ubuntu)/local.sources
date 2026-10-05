@@ -1,6 +1,11 @@
-X-Repolib-Name: Local Repository
+X-Repolib-Name: My Local Packages
 Enabled: yes
 Types: deb
 URIs: file:/var/local/repository/
 Suites: ./
+Architectures: amd64
+Targets: Packages
+Languages: none
 Trusted: yes
+PDiffs: no
+Signed-By:
