@@ -1,7 +1,7 @@
 X-Repolib-Name: Node.js
 Enabled: yes
 Types: deb
-URIs: https://deb.nodesource.com/node_20.x
+URIs: https://deb.nodesource.com/node_24.x
 Suites: nodistro
 Components: main
 Architectures: amd64
