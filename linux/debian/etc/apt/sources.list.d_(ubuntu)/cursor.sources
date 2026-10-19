@@ -1,8 +1,8 @@
-X-Repolib-Name: Cursor, grok-bot
+X-Repolib-Name: Cursor
 Enabled: yes
 Types: deb
 URIs: https://downloads.cursor.com/aptrepo
-Suites: stable grok-bot
+Suites: stable
 Components: main
 Architectures: amd64
 # https://downloads.cursor.com/keys/anysphere.asc
