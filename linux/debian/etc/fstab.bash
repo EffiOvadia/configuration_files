@@ -5,7 +5,7 @@ echo '#UUID MOUNTPOINT FSTYPE OPTIONS' >> /etc/fstab.new
 read UUID FSTYPE <<< "$(lsblk -p -o PARTTYPENAME,UUID,FSTYPE -P | awk -F'"' '$2=="EFI System" {print $4, $6}')"
 echo "UUID=$UUID /boot/efi $FSTYPE defaults,noatime,discard,umask=0077,shortname=winnt 0 1" >> /etc/fstab.new
 # Locate and add "Linux filesystem" root partition to fstab
-read UUID FSTYPE <<< "$(lsblk -p -o PARTTYPENAME,UUID,FSTYPE -P | awk -F'"' '$2=="Linux filesystem" {print $4, $6}')"
+read UUID FSTYPE <<< "$(lsblk -p -o PARTTYPENAME,UUID,FSTYPE -P | awk -F'"' '$3=="Linux filesystem" {print $4, $6}')"
 echo "UUID=$UUID / $FSTYPE defaults,noatime,discard,commit=60,errors=remount-ro 0 1" >> /etc/fstab.new
 # Locate and add "Linux home" partition to fstab
 read UUID FSTYPE <<< "$(lsblk -p -o PARTTYPENAME,UUID,FSTYPE -P | awk -F'"' '$2=="Linux home" {print $4, $6}')"
