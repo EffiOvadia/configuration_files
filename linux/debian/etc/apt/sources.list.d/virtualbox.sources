@@ -1,13 +1,13 @@
-Name: Oracle VirualBox 
+X-Repolib-Name: Oracle VirualBox 
 Enabled: yes
 Types: deb
 URIs: https://download.virtualbox.org/virtualbox/debian
 Suites: bookworm
 Components: non-free contrib
 Architectures: amd64
+# https://www.virtualbox.org/download/oracle_vbox_2016.asc
 Signed-By: 
  -----BEGIN PGP PUBLIC KEY BLOCK-----
- Version: GnuPG v1.4.12 (GNU/Linux)
  .
  mQINBFcZ9OEBEACSvycoAEIKJnyyIpZ9cZLCWa+rHjXJzPymndnPOwZr9lksZVYs
  12YnsEy7Uj48rTB6mipbIuDDH9VBybJzpu3YjY7PFTkYAeW6WAPeJ8RcSGXsDvc0

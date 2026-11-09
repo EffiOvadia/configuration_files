@@ -5,6 +5,7 @@ URIs: http://repo.mongodb.org/apt/debian
 Suites: bookworm/mongodb-org/8.0
 Components: main
 Architectures: amd64
+# https://www.mongodb.org/static/pgp/server-8.0.asc
 Signed-By:
  -----BEGIN PGP PUBLIC KEY BLOCK-----
  .
