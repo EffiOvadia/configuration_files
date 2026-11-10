@@ -2,7 +2,7 @@ X-Repolib-Name: IVPN
 Enabled: yes
 Types: deb
 URIs: https://repo.ivpn.net/stable/ubuntu
-Suites: generic
+Suites: ./generic
 Components: main
 Architectures: amd64
 # https://repo.ivpn.net/stable/ubuntu/generic.gpg
