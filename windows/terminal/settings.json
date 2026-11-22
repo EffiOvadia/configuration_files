@@ -146,12 +146,12 @@
                 "source": "Microsoft.WSL"
             },
             {
-                // Fedora Linux 43
-                "commandline": "wsl -d FedoraLinux-43 -u root",
+                // Fedora Linux 45
+                "commandline": "wsl -d FedoraLinux-45 -u root",
                 "guid": "{a0f3061c-98fd-59a9-a019-beb08917bb7d}",
                 "hidden": false,
                 "icon": "ms-appdata:///Local/Fedora.ico",
-                "name": "FedoraLinux 43",
+                "name": "Fedora Linux 45",
                 "pathTranslationStyle": "wsl",
                 "source": "Microsoft.WSL"
             },
