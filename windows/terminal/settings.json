@@ -89,7 +89,7 @@
             {
                 // Ubuntu 26.04 LTS 
                 "backgroundImage": "ms-appdata:///Local/ubuntu.png",
-                "commandline": "wsl -d Ubuntu-26.04",
+                "commandline": "wsl -d Ubuntu-26.04 -u root",
                 "guid": "{3593f4f8-fa59-56e5-915e-dad2cf127b91}",
                 "hidden": false,
                 "name": "Ubuntu-26.04",
@@ -98,21 +98,20 @@
                 "source": "Microsoft.WSL"
             },
             {
-                // Ubuntu 
+                // Ubuntu
                 "backgroundImage": "ms-appdata:///Local/ubuntu.png",
-                "commandline": "wsl -d ubuntu",
+                "commandline": "wsl -d Ubuntu -u root",
                 "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
                 "hidden": false,
-                "icon": "ms-appdata:///Local/Ubuntu.ico",
                 "name": "Ubuntu",
                 "pathTranslationStyle": "wsl",
-                "wsl.distribution-type": "ubuntu",
+                "wsl.distribution-type": "ubuntu",  
                 "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
             },
             {
                 // Ubuntu 24.04 LTS
                 "backgroundImage": "ms-appdata:///Local/ubuntu.png",
-                "commandline": "wsl -d Ubuntu-24.04",
+                "commandline": "wsl -d Ubuntu-24.04 -u root",
                 "guid": "{d8e96812-b789-5068-a5ae-10b2fb53e95f}",
                 "hidden": false,
                 "icon": "ms-appdata:///Local/Ubuntu.ico",
@@ -124,7 +123,7 @@
             {
                 // Debian GNU/Linux
                 "backgroundImage": "ms-appdata:///Local/debian.png",
-                "commandline": "wsl -d debian",
+                "commandline": "wsl -d debian -u root",
                 "guid": "{d187cfb1-b46f-5ac1-8c8d-2fc5b94f30cb}",
                 "hidden": false,
                 "icon": "ms-appdata:///Local/Debian.ico",
@@ -136,7 +135,7 @@
             {
                 // Kali Linux Rolling
                 "backgroundImage": "ms-appdata:///Local/kali.png",
-                "commandline": "wsl -d kali-linux",
+                "commandline": "wsl -d kali-linux -u root",
                 "guid": "{817cd70a-734e-548e-83d8-3620037ff3b2}",
                 "hidden": false,
                 "icon": "ms-appdata:///Local/Kali.ico",
@@ -148,9 +147,8 @@
             {
                 // Fedora Linux 45
                 "commandline": "wsl -d FedoraLinux-45 -u root",
-                "guid": "{a0f3061c-98fd-59a9-a019-beb08917bb7d}",
+                "guid": "{c837a8de-dfe3-5247-ac86-7384257be236}",
                 "hidden": false,
-                "icon": "ms-appdata:///Local/Fedora.ico",
                 "name": "Fedora Linux 45",
                 "pathTranslationStyle": "wsl",
                 "source": "Microsoft.WSL"
@@ -158,10 +156,9 @@
             {
                 // Arch Linux
                 "commandline": "wsl -d archlinux -u root",
-                "guid": "{83c45d7f-60fd-59f5-aedd-e1c44f2a85cb}",
+                "guid": "{c9b2c9d6-ad91-5898-bc3b-6e8415c292ac}",
                 "hidden": false,
-                "icon": "ms-appdata:///Local/Arch.ico",
-                "name": "ArchLinux",
+                "name": "archlinux",
                 "pathTranslationStyle": "wsl",
                 "source": "Microsoft.WSL"
             },
@@ -189,7 +186,7 @@
                 // Git Bash
                 "foreground": "#BCC000",
                 "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
-                "hidden": false,
+                "hidden": true,
                 "icon": "ms-appdata:///Local/git.ico",
                 "name": "Git Bash",
                 "source": "Git",
